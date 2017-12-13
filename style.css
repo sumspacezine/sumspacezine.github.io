@@ -1,0 +1,79 @@
+@font-face {
+	font-family: AnonymousPro;
+	src: url('AnonymousPro-1.002.001/Anonymous_Pro.ttf');
+}
+
+.cap {
+	vertical-align: middle;
+	font-family: 'AnonymousPro';
+}
+
+.sigma {
+	font-size: 4em;
+	display: inline;
+}
+
+.space {
+	font-size: 2em;
+	display: inline;
+}
+
+.sound img {
+	height: 1em;
+}
+
+.sound h2 {
+	font-size: 1em;
+	display: inline;
+	padding-left: 0.5em;
+}
+
+body p {
+	text-align: justify;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	position: fixed;
+  	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+
+#watch {
+	text-decoration: none;
+	font-style: italic;
+	color: #808080;
+}
+
+#watch:hover {
+	text-decoration: underline;
+}
+
+#mc_embed_signup {
+	background: #fff; 
+	clear: left;
+	font: 'Lato', sans-serif;
+	width: 100%
+}
+
+#mc_embed_signup form {
+	margin-top: -1.3em;
+	text-align: left;
+}
+
+#mc_embed_signup input.email {
+	width: 85%;
+}
+
+#tsocial {
+	clear: left;
+}
+
+.social {
+	padding-right: 0.5em;
+	max-height: 3em;
+	max-width: 3em;
+	margin-top: -0.7em;
+}
