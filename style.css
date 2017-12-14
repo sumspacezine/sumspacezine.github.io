@@ -67,6 +67,12 @@ body {
 	width: 85%;
 }
 
+@media (max-width: 767px) {
+	#mc_embed_signup input.email {
+		width: 100%;
+	}
+}
+
 #tsocial {
 	clear: left;
 }
