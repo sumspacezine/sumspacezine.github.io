@@ -34,12 +34,18 @@ body p {
 
 body {
 	font-family: 'Lato', sans-serif;
-	position: fixed;
-  	top: 50%;
-	left: 50%;
-	/* bring your own prefixes */
-	transform: translate(-50%, -50%);
 }
+
+@media (min-width: 640px) {
+	body {
+		position: fixed;
+	  	top: 50%;
+		left: 50%;
+		/* bring your own prefixes */
+		transform: translate(-50%, -50%);
+	}
+}
+
 
 #watch {
 	text-decoration: none;
