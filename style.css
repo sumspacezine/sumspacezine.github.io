@@ -36,7 +36,7 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640px) and (min-height: 660px) {
 	body {
 		position: fixed;
 	  	top: 50%;
